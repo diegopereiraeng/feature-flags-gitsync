@@ -1,14 +1,14 @@
 flags:
-  - id: testflag
+  - id: taskPriorities
     enabled: on
     serve_when_enabled: True
     serve_when_disabled: False
     targets:
       - targets:
-        - identifier: GuestSo-Paulo
+        - identifier: developers
         variation: False
     rules: {}
-  - id: feature_flag
+  - id: taskCategories
     enabled: on
     serve_when_enabled: True
     serve_when_disabled: False

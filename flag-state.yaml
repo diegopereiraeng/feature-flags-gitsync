@@ -1,0 +1,16 @@
+flags:
+  - id: testflag
+    enabled: on
+    serve_when_enabled: True
+    serve_when_disabled: False
+    targets:
+      - targets:
+        - identifier: GuestSo-Paulo
+        variation: False
+    rules: {}
+  - id: feature_flag
+    enabled: on
+    serve_when_enabled: True
+    serve_when_disabled: False
+    targets: {}
+    rules: {}

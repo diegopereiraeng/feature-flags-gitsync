@@ -8,6 +8,10 @@ flags:
         - developers
         - qa
         variation: False
+      - targets:
+        - prod
+        - beta
+        variation: True
     rules: {}
   - id: taskCategories
     enabled: on

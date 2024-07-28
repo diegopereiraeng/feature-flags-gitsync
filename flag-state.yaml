@@ -6,6 +6,7 @@ flags:
     targets:
       - targets:
         - identifier: developers
+        - identifier: qa
         variation: False
     rules: {}
   - id: taskCategories

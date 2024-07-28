@@ -5,8 +5,8 @@ flags:
     serve_when_disabled: False
     targets:
       - targets:
-        - identifier: developers
-        - identifier: qa
+        - developers
+        - qa
         variation: False
     rules: {}
   - id: taskCategories

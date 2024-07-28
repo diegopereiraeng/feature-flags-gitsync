@@ -12,5 +12,8 @@ flags:
     enabled: on
     serve_when_enabled: True
     serve_when_disabled: False
-    targets: {}
+    targets:
+      - targets:
+        - identifier: developers
+        variation: False
     rules: {}

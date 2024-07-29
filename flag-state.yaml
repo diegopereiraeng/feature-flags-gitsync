@@ -19,6 +19,6 @@ flags:
     serve_when_disabled: False
     targets:
       - targets:
-        - identifier: developers
+        - developers
         variation: False
     rules: {}

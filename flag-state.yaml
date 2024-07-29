@@ -4,7 +4,7 @@ flags:
     serve_when_enabled: False
     serve_when_disabled: False
     targets:
-      - targets:
+      - targets_groups:
         - developers
         - qa
         variation: False
@@ -18,7 +18,7 @@ flags:
     serve_when_enabled: False
     serve_when_disabled: False
     targets:
-      - targets:
+      - targets_groups:
         - developers
         variation: True
     rules: {}

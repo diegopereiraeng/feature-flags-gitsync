@@ -8,7 +8,7 @@ flags:
         - developers
         - qa
         variation: False
-      - targets:
+      - targets_groups:
         - prod
         - beta
         variation: True

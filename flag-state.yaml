@@ -1,7 +1,7 @@
 flags:
   - id: taskPriorities
     enabled: on
-    serve_when_enabled: True
+    serve_when_enabled: False
     serve_when_disabled: False
     targets:
       - targets:
@@ -15,10 +15,10 @@ flags:
     rules: {}
   - id: taskCategories
     enabled: on
-    serve_when_enabled: True
+    serve_when_enabled: False
     serve_when_disabled: False
     targets:
       - targets:
         - developers
-        variation: False
+        variation: True
     rules: {}
